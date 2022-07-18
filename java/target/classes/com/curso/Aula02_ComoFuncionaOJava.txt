@@ -1,0 +1,15 @@
+----- COMO FUNCIONA O JAVA -----
+
+O JavaC (Java Compiler) vai transformar o Código Fonte Java em Bytecode, um código específico que vai executar em uma Máquina Virtual Java (Java Virtual Machine - JVM).
+
+Uma JVM é uma solução de software capaz de executar bytecode em qualquer máquina, independente da plataforma que o Código Fonte foi compilado. Java é multiplataforma sem a necessidade de recompilação.
+
+A JVM é composta por várias partes internas, como por exemplo Loader, Verificador, Interpretador, Gerenciador de Memória e Compilador JIT (Just in Time).
+
+Atualmente existem JVMs em várias plataformas, como Computadores Pessoais (Windows, Linux, MacOS), dispositivos móveis (Android) e até mesmo os modernos wearables (relógios inteligentes, óculos inteligentes).
+
+O princípio de funcionamento desse mecanismo explicado acima é conhecido pela sigla WORA (Write Once Run Anywhere) que significa “Escreva uma vez, execute em qualquer lugar”.
+
+JRE (Java Runtime Environment) é um conjunto de software que forma um ambiente para a execução de bytecodes feitos em Java. Ela é composta da JVM e bibliotecas adicionais.
+
+JDK (Java Development Kit) é um conjunto de programas que todo programador Java deve ter. Ele é um kit de desenvolvimento Java composto pela JRE (item acima), o JavaLang, o JavaTools (JavaC, Debugger, APIs). Além disso, você ainda pode adicionar uma IDE para facilitar o desenvolvimento Java.
